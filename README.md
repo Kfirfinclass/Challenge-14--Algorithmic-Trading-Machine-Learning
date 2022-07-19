@@ -23,6 +23,7 @@ Run pip install -r requirements.txt
 
 ## Baseline Performance
 Actual vs Strategy Returns:
+<img width="673" alt="baseline" src="https://user-images.githubusercontent.com/98926901/179636709-e8ef0b25-0ef8-485a-9e50-3aa3514d4164.png">
 
 
 The baseline strategy currently outperforms actual returns so it is a strong baseline. 
@@ -33,15 +34,18 @@ Can we produce a better return?
 
 What impact resulted from increasing or decreasing the training window?
 - The strategy returns performed better than the baseline when the training window increased to 6 months.
+<img width="673" alt="baseline6" src="https://user-images.githubusercontent.com/98926901/179636725-9bc93769-e5dd-45f3-9543-c8782830f1c0.png">
 
 
 What impact resulted from increasing or decreasing either or both of the SMA windows?
 - By adjusting the windows up to 16 and 120, the strategy returns underperformed against the baseline. 
+<img width="600" alt="sma" src="https://user-images.githubusercontent.com/98926901/179636738-c2b48b25-e9f8-4723-af87-c7db069377f5.png">
 
 As per the above photos, increasing the trading window appears to allow better predictions and a more accurate model, which retults in better strategy returns. 
 
 ## New Machine Learning Classifier
-<img width="808" alt="Screen Shot 2022-06-26 at 8 22 19 PM" src="https://user-images.githubusercontent.com/98444459/175854023-e70b33ae-ced5-43e8-a165-9c55115d96b1.png">
+<img width="743" alt="baseml" src="https://user-images.githubusercontent.com/98926901/179636774-b9df6ae1-89cb-499d-9d2f-4fc7d4a65175.png">
+
 
 Did this new model perform better or worse than the provided baseline model? Did this new model perform better or worse than your tuned trading algorithm?
 
